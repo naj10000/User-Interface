@@ -49,7 +49,9 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	
 }
 
 html, body {
@@ -64,3 +66,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+nav {
+	margin: 0 auto;
+	text-align: center;
+}
+.links a{
+	display: inline-block;
+	margin: 50px 50px 50px 50px;
+
+}
+
+.img1{
+	
+	float: right;
+	
+}
+
+.head {
+	display:inline-block;
+}
+
+h1{
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+.headtitle{
+
+	font-size:75px;
+	text-align: center;
+	margin: 0 auto;
+	border
+}
+
+button {
+	border: 1px solid grey;
+}
+
+.header-img{
+	
+	width: 100%;
+	margin: 0 0 25% 50%;
+	
+}
+.section1 {
+	margin: 0 auto;
+}
+
+.features{
+	display:inline-block;
+	width:50%;
+	margin: 0 auto;
+	font-size: 20px;
+	float:left;
+
+
+}
+
+.about {
+	display:inline-block;
+	width:50%;
+	margin: 0 auto;
+	font-size: 20px;
+	float:right;
+}
+
+.middle-img{
+	width: 100%;
+	 
+}
+
+.section2{
+	display:inline-block;
+}
+
+.services {
+	display:inline-block;
+	width:32%;
+	margin: 0.5 auto;
+	font-size: 20px
+}
+
+
+.product{
+	display:inline-block;
+	width:32%;
+	margin: 0.5 auto;
+	font-size: 20px
+}
+
+.vision{
+	display:inline-block;
+	width:32%;
+	margin: 0.5 auto;
+	font-size: 20px
+}
+
+.address {
+	font-size: 20px;
+}
+
+.address h3 {
+	font-style: bold;
+}
+
+footer{
+	text-align: center;
+}
